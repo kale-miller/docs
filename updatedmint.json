@@ -1,0 +1,59 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Sendoso API",
+  "logo": {
+    "dark": "/logo/sendosologo.svg",
+    "light": "/logo/sendosologo.svg"
+  },
+  "favicon": "/s (1).png",
+  "colors": {
+    "primary": "#f37021",
+    "light": "#f37021",
+    "dark": "#f37021",
+    "background": {
+      "dark": "#352E27"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:devlopers@sendoso.com"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "abouttheapi",
+        "abouttheiframe"
+      ]
+    },
+    {
+      "group": "Additional Resources",
+      "pages": [
+        "testingenvironment",
+        "essentials/code"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/authentication"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/update",
+        "api-reference/endpoint/delete"
+      ]
+    }
